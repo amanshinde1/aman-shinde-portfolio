@@ -1,120 +1,98 @@
+# Aman Shinde – Full-Stack Developer Portfolio
 
-# Portfolio Résumé Template
+This is my personal developer portfolio website built using **React**, **TypeScript**, and **Tailwind CSS**. It showcases my skills, projects, education, certifications, and work experience as a full-stack developer.
 
-A sleek, fully-responsive portfolio template that can be used as a web résumé. Built with React, TypeScript, Tailwind CSS, and Framer Motion.
+---
 
-![image](https://github.com/user-attachments/assets/b5b6c34d-b173-4393-8bac-173796f0c7f4)
-![image](https://github.com/user-attachments/assets/6fa784c4-ad15-4224-a639-642b8082cff1)
-![image](https://github.com/user-attachments/assets/8bd50835-0fe9-4c12-b921-13a325014821)
-![image](https://github.com/user-attachments/assets/9c18547e-8e34-4112-bb42-1343ed97feeb)
-![image](https://github.com/user-attachments/assets/50d229f4-abb6-41d7-854e-0dc04d3ae39a)
+## 📌 Overview
 
+- 🎯 **Role**: Full-Stack Developer (Python, Django, React, PostgreSQL)
+- 🎓 **Education**: Master of Computer Applications (MCA), Pimpri Chinchwad College of Engineering, Pune
+- 🌍 **Location**: Pune, Maharashtra, India
+- 📬 **Contact**: amanshinde316@gmail.com
 
-## ✨ Features
+---
 
-- **Single Page Layout**: Smooth scroll navigation via anchor links
-- **Responsive Design**: Works on all device sizes
-- **Theme Toggle**: Switch between light and dark mode
-- **Data-Driven**: All content stored in a single data file
-- **Animations**: Subtle animations with Framer Motion
-- **A11y Support**: Accessible design with semantic HTML and keyboard navigation
-- **Print-Ready**: "Download PDF" functionality for résumé printing
+## 🚀 Features
 
-## 🚀 Quick Start
+- ⚡ Single Page Layout with smooth scroll
+- 🌗 Light and Dark Theme Toggle
+- 🧠 Fully Data-Driven: Content managed via `profile.ts`
+- 🖨️ Resume-style layout with **Download PDF** option
+- 📱 Responsive Design for mobile and desktop
+- 🎨 Styled using Tailwind CSS
+- ⚙️ Built with React + Vite + Framer Motion animations
 
-1. Clone this repository
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Run the development server:
-   ```sh
-   npm run dev
-   ```
-4. Open [http://localhost:8080](http://localhost:8080) to see your portfolio!
+---
 
-## 📝 Editing Your Portfolio
+## 🛠️ Tech Stack
 
-All content is stored in a single data file: `/src/data/profile.ts`
+- **Frontend**: React, TypeScript, Tailwind CSS, Bootstrap, Chart.js
+- **Backend** (projects): Django, Django REST Framework, Python, PostgreSQL, MySQL, PHP
+- **Tools**: Git, GitHub, VS Code, PyCharm
+- **Deployment**: Vercel
 
-To update your portfolio, simply edit this file. The changes will be automatically reflected throughout your site.
+---
 
-### Data Structure
+## 💼 Projects
 
-The profile data structure includes:
+### 📚 [Library Management System](https://amanshinde.pythonanywhere.com)
+A full-featured Library System built with Django & PostgreSQL.
 
-- **basics**: Your personal information (name, title, contact info, etc.)
-- **skills**: Technical and other skills, grouped by category
-- **experience**: Work experience with job details
-- **projects**: Portfolio projects with images and links
-- **education**: Educational background
-- **certifications**: Professional certifications
-- **achievements**: Notable accomplishments
-- **volunteering**: Volunteer work
-- **meta**: SEO and metadata information
+- Book catalog, borrow/return, user profiles
+- Admin analytics, email reminders, CSV export
+- REST API with Django REST Framework
 
-## 🖨️ Printing as PDF
+### 🛍️ E-commerce Fashion Store
+Fashion e-commerce platform built during internship.
 
-To generate a PDF version of your résumé:
+- Product listings, cart, login/signup
+- Admin panel to manage products & orders
+- Built with PHP, MySQL, HTML, Tailwind CSS
 
-1. Click the "Download PDF" button on the site
-2. When the print dialog opens, select "Save as PDF" option
-3. Adjust margins if needed (recommended: None)
-4. Save the file
+### 🌍 Travel & Tourism Management System
+Web app for travel bookings with admin control.
 
-## 🌐 Deployment
+- Destination browsing, booking, authentication
+- Responsive design using HTML, CSS, JavaScript, PHP
 
-### Deploy to Vercel
+---
 
-1. Fork this repository
-2. Connect your GitHub account to Vercel
-3. Import the repository
-4. Deploy!
+## 🧑‍🎓 Education
 
-```sh
-npm install -g vercel
-vercel
-```
+- **MCA** – Pimpri Chinchwad College of Engineering (2022–2024)
+- **BCA** – Vishwakarma College of Arts, Commerce & Science (2019–2022)
 
-### Deploy to Netlify
+---
 
-1. Fork this repository
-2. Connect your GitHub account to Netlify
-3. Import the repository with these build settings:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-4. Deploy!
+## 📄 Certifications
 
-```sh
-npm install -g netlify-cli
-netlify deploy
-```
+- Front End Development Libraries – freeCodeCamp
+- AWS Educate Cloud Computing 101 – AWS
+- Google AI Essentials – Coursera
+- Google Prompting Essentials – Coursera
+- Foundations of Cybersecurity – Coursera
 
-## 🛠️ Customization
+---
 
-### Changing Colors
+## 📸 Screenshots
 
-Edit the CSS variables in `src/index.css` to change the color scheme:
+![Homepage Screenshot](#)  
+*(Replace with actual image or remove this section if not needed)*
 
-```css
-:root {
-  --primary: 221 83% 53%;
-  --accent: 176 68% 64%;
-  /* other colors... */
-}
-```
+---
 
-### Adding New Sections
+## 🧑‍💻 How to Use
 
-1. Create a new component in `/src/sections/`
-2. Add the corresponding data in `/src/data/profile.ts`
-3. Import and add the component to `App.tsx`
+```bash
+# Clone the repository
+git clone https://github.com/amanshinde1/aman-shinde-portfolio.git
 
-## 📚 Tech Stack
+# Navigate to the folder
+cd aman-shinde-portfolio
 
-- [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/) - Frontend
-- [Vite](https://vitejs.dev/) - Build tool
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-- [Framer Motion](https://www.framer.com/motion/) - Animations
-- [Lucide React](https://lucide.dev/) - Icons
-- [React Query](https://tanstack.com/query/latest) - Data fetching
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
