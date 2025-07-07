@@ -14,7 +14,6 @@ export default {
     social: [
       { platform: "LinkedIn", url: "https://www.linkedin.com/in/aman-shinde-45767925b/", icon: "linkedin" },
       { platform: "GitHub", url: "https://github.com/amanshinde1", icon: "github" },
-      { platform: "Twitter", url: "#YOUR_TWITTER_URL", icon: "twitter" }
     ]
   },
   skills: [

@@ -37,10 +37,12 @@ export default function About() {
             <p className="text-lg leading-relaxed">{summary}</p>
           ) : (
             <motion.div
-              variants={container}
-              initial="hidden"
-              animate="visible"
-            >
+  variants={container}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true, amount: 0.2 }}
+>
+
               {summary.split('. ').map((sentence, index) => (
                 <motion.p
                   key={index}

@@ -77,22 +77,7 @@ Web app for travel bookings with admin control.
 
 ## 📸 Screenshots
 
-![Homepage Screenshot](#)  
+![Homepage Screenshot](https://raw.githubusercontent.com/amanshinde1/aman-shinde-portfolio/main/Homepage.png)  
 *(Replace with actual image or remove this section if not needed)*
 
 ---
-
-## 🧑‍💻 How to Use
-
-```bash
-# Clone the repository
-git clone https://github.com/amanshinde1/aman-shinde-portfolio.git
-
-# Navigate to the folder
-cd aman-shinde-portfolio
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
