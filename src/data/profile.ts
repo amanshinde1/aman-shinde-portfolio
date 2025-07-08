@@ -140,6 +140,23 @@ export default {
   ],
   certifications: [
     {
+
+      name: "Scientific Computing with Python",
+      issuer: "freeCodeCamp",
+      issueDate: "Jun 2025",
+      url: "https://www.freecodecamp.org/certification/aman_shinde/scientific-computing-with-python-v7",
+      skills: [
+        "Python",
+        "Scientific Computing",
+        "Data Structures",
+        "Algorithmic Thinking"
+
+      ]
+    },
+    {
+
+
+
       name: "Front End Development Libraries",
       issuer: "freeCodeCamp",
       issueDate: "May 2025",
@@ -208,7 +225,6 @@ export default {
     title: "Aman Shinde | Full-Stack Developer",
     description:
       "Portfolio and resume of Aman Shinde, Full-Stack Developer specializing in Python, Django, PHP, and full-stack web applications.",
-    twitterHandle: "@AmanShinde",
     language: "en",
     themeColor: "#2563eb"
   }
