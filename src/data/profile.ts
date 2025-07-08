@@ -191,7 +191,7 @@ export default {
         "Machine Learning",
         "Generative AI"
       ],
-      url: "#URL_TO_CERTIFICATE"
+      url: "https://www.coursera.org/account/accomplishments/verify/M7TN7OO3JZ04"
     },
     {
       name: "Google Prompting Essentials",
@@ -204,7 +204,7 @@ export default {
         "Generative AI",
         "Productivity Tools"
       ],
-      url: "#URL_TO_CERTIFICATE"
+      url: "https://www.coursera.org/account/accomplishments/verify/6RNS9B00MM3R"
     },
     {
       name: "Foundations of Cybersecurity",
@@ -218,7 +218,7 @@ export default {
         "Network Security",
         "Risk Management"
       ],
-      url: "#URL_TO_CERTIFICATE"
+      url: "https://www.coursera.org/account/accomplishments/verify/37RU4G9L9TQF"
     }
   ],
   meta: {
