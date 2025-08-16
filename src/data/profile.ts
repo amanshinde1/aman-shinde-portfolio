@@ -7,9 +7,9 @@ export default {
     location: "Pune, Maharashtra",
     summary: `Passionate and detail-oriented Full-Stack Developer with a Master’s in Computer Applications and hands-on experience in Python, Django, and SQL. 
     
-    Skilled in building robust backend systems, RESTful APIs, and responsive web applications, user-friendly frontends using HTML, CSS, JavaScript, and Tailwind CSS.
+Skilled in building robust backend systems, RESTful APIs, and responsive web applications, user-friendly frontends using HTML, CSS, JavaScript, and Tailwind CSS.
 
-    I enjoy solving real-world problems through clean, maintainable code and thrive in collaborative environments that value continuous learning and innovation.`,
+I enjoy solving real-world problems through clean, maintainable code and thrive in collaborative environments that value continuous learning and innovation.`,
     avatar: "/images/myphoto.jpeg",
     social: [
       { platform: "LinkedIn", url: "https://www.linkedin.com/in/aman-shinde-45767925b/", icon: "linkedin" },
@@ -50,9 +50,7 @@ export default {
         { name: "Prompt Engineering (AI Tools)", level: 70 },
       ]
     }
-    
   ],
-  
   experience: [
     {
       role: "Web Developer Intern",
@@ -71,10 +69,26 @@ export default {
   ],
   projects: [
     {
+      title: "Prodexa – AI Productivity Dashboard",
+      description:
+        "Full-stack AI-powered productivity dashboard with authentication, task management, analytics, and AI insights built using Django (backend) and React (frontend).",
+      image: "/images/dash copy.png",
+      tags: [
+        "Django",
+        "React.js",
+        "Tailwind CSS",
+        "Chakra UI",
+        "PostgreSQL",
+        "AI Integration"
+      ],
+      liveUrl: "https://prodexa-ai-productivity.onrender.com/",
+      sourceUrl: "https://github.com/amanshinde1/ai-productivity-dashboard"
+    },
+    {
       title: "Library Management System",
       description:
         "A full-featured web-based Library Management System built with Django and PostgreSQL. It includes book catalog, user profiles, borrowing system, admin reports, email reminders, CSV export, and mobile-responsive UI.",
-      image: "/images/Homepage copy.png",  // put your real image path or URL here
+      image: "/images/Homepage copy.png",
       tags: [
         "Django",
         "Django REST Framework",
@@ -87,7 +101,6 @@ export default {
       liveUrl: "https://amanshinde.pythonanywhere.com/",
       sourceUrl: "https://github.com/amanshinde1/library-management-system"
     },
-    
     {
       title: "E-commerce Fashion Store",
       description:
@@ -104,22 +117,6 @@ export default {
       ],
       liveUrl: "#ECOMMERCE_LIVE_URL",
       sourceUrl: "#ECOMMERCE_REPO_URL"
-    },
-    {
-      title: "Travel and Tourism Management System",
-      description:
-        "An interactive web application allowing users to plan and book travel packages. Includes destination listings, booking functionality, secure authentication, and an admin panel to manage tours. Built using PHP, MySQL, HTML, CSS, and JavaScript.",
-      image: "/images/travel.jpg",
-      tags: [
-        "PHP",
-        "MySQL",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Responsive Web Design"
-      ],
-      liveUrl: "#TRAVEL_LIVE_URL",
-      sourceUrl: "#TRAVEL_REPO_URL"
     }
   ],
   education: [
@@ -140,45 +137,26 @@ export default {
   ],
   certifications: [
     {
-
       name: "Scientific Computing with Python",
       issuer: "freeCodeCamp",
       issueDate: "Jun 2025",
       url: "https://www.freecodecamp.org/certification/aman_shinde/scientific-computing-with-python-v7",
-      skills: [
-        "Python",
-        "Scientific Computing",
-        "Data Structures",
-        "Algorithmic Thinking"
-
-      ]
+      skills: ["Python", "Scientific Computing", "Data Structures", "Algorithmic Thinking"]
     },
     {
-
-
-
       name: "Front End Development Libraries",
       issuer: "freeCodeCamp",
       issueDate: "May 2025",
       credentialId: "aman_shinde-fedl",
       url: "https://www.freecodecamp.org/certification/aman_shinde/front-end-development-libraries",
-
-      skills: [
-        "React.js",
-        "Redux.js",
-        "JavaScript",
-        "CSS",
-        "Responsive Web Design"
-      ]
+      skills: ["React.js", "Redux.js", "JavaScript", "CSS", "Responsive Web Design"]
     },
     {
-
       name: "AWS Educate Cloud Computing 101",
       issuer: "Amazon Web Services (AWS)",
       issueDate: "Jun 2025",
       credentialId: "aman_shinde-fedl",
-      url: "https://www.credly.com/earner/earned/share/8fb06e01-8387-4a01-b366-b6f625ee13fe",
-
+      url: "https://www.credly.com/earner/earned/share/8fb06e01-8387-4a01-b366-b6f625ee13fe"
     },
     {
       name: "Google AI Essentials",
@@ -186,11 +164,7 @@ export default {
       issueDate: "May 2025",
       description:
         "Completed foundational course on AI concepts, responsible and ethical AI practices, and practical applications of AI tools.",
-      skills: [
-        "Artificial Intelligence (AI)",
-        "Machine Learning",
-        "Generative AI"
-      ],
+      skills: ["Artificial Intelligence (AI)", "Machine Learning", "Generative AI"],
       url: "https://www.coursera.org/account/accomplishments/verify/M7TN7OO3JZ04"
     },
     {
@@ -199,11 +173,7 @@ export default {
       issueDate: "May 2025",
       credentialId: "6RNS9B00MM3R",
       description: "Covered prompt engineering strategies and best practices for maximizing productivity with generative AI tools.",
-      skills: [
-        "Prompt Engineering",
-        "Generative AI",
-        "Productivity Tools"
-      ],
+      skills: ["Prompt Engineering", "Generative AI", "Productivity Tools"],
       url: "https://www.coursera.org/account/accomplishments/verify/6RNS9B00MM3R"
     },
     {
@@ -212,12 +182,7 @@ export default {
       issueDate: "Feb 2024",
       description:
         "Completed comprehensive course on cybersecurity fundamentals including information security, risk management, and network protection.",
-      skills: [
-        "Cybersecurity",
-        "Information Security",
-        "Network Security",
-        "Risk Management"
-      ],
+      skills: ["Cybersecurity", "Information Security", "Network Security", "Risk Management"],
       url: "https://www.coursera.org/account/accomplishments/verify/37RU4G9L9TQF"
     }
   ],
