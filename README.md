@@ -78,6 +78,6 @@ Web app for travel bookings with admin control.
 ## 📸 Screenshots
 
 ![Homepage Screenshot](https://raw.githubusercontent.com/amanshinde1/aman-shinde-portfolio/main/Homepage.png)  
-*(Replace with actual image or remove this section if not needed)*
+
 
 ---
