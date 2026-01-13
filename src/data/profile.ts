@@ -1,85 +1,94 @@
 export default {
   basics: {
     name: "Aman Shinde",
-    title: "Full-Stack Developer",
+    title: "Backend Developer (Python / Django)",
     email: "amanshinde316@gmail.com",
     phone: "+91 7768855042",
     location: "Pune, Maharashtra",
-    summary: `Passionate and detail-oriented Full-Stack Developer with a Master’s in Computer Applications and hands-on experience in Python, Django, and SQL. 
-    
-Skilled in building robust backend systems, RESTful APIs, and responsive web applications, user-friendly frontends using HTML, CSS, JavaScript, and Tailwind CSS.
+    summary: `Backend Developer with a Master’s in Computer Applications and hands-on experience building backend systems using Python, Django, Django REST Framework, and SQL-based databases.
 
-I enjoy solving real-world problems through clean, maintainable code and thrive in collaborative environments that value continuous learning and innovation.`,
+I focus on designing RESTful APIs, authentication flows, database-driven features, and backend logic for real-world applications. I also have working exposure to frontend technologies, which helps me collaborate effectively with frontend teams.
+
+I enjoy solving practical problems through clean, maintainable backend code and continuously improving my understanding of backend workflows.`,
     avatar: "/images/myphoto.jpeg",
     social: [
-      { platform: "LinkedIn", url: "https://www.linkedin.com/in/aman-shinde-45767925b/", icon: "linkedin" },
-      { platform: "GitHub", url: "https://github.com/amanshinde1", icon: "github" },
+      {
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/in/aman-shinde-45767925b/",
+        icon: "linkedin"
+      },
+      {
+        platform: "GitHub",
+        url: "https://github.com/amanshinde1",
+        icon: "github"
+      }
     ]
   },
+
   skills: [
     {
-      category: "Frontend",
+      category: "Backend (Primary)",
       items: [
-        { name: "HTML5 / CSS3", level: 95 },
-        { name: "JavaScript", level: 90 },
-        { name: "TypeScript", level: 85 },
-        { name: "React.js", level: 90 },
-        { name: "Tailwind CSS", level: 85 },
-        { name: "Bootstrap 4", level: 90 }
+        { name: "Python" },
+        { name: "Django" },
+        { name: "Django REST Framework" },
+        { name: "REST APIs" },
+        { name: "Authentication (JWT / Sessions)" },
+        { name: "PostgreSQL" },
+        { name: "MySQL" }
       ]
     },
     {
-      category: "Backend",
+      category: "Frontend (Supporting)",
       items: [
-        { name: "Python", level: 85 },
-        { name: "Django", level: 85 },
-        { name: "Django REST Framework", level: 80 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "MySQL", level: 80 },
-        { name: "PHP", level: 75 }  
+        { name: "HTML" },
+        { name: "CSS" },
+        { name: "JavaScript" },
+        { name: "React (working knowledge)" }
       ]
     },
     {
-      category: "Tools & Productivity",
+      category: "Tools",
       items: [
-        { name: "Git & GitHub", level: 90 },
-        { name: "VS Code / PyCharm", level: 85 },
-        { name: "Docker (Basic)", level: 60 },
-        { name: "Chart.js (Data Visualization)", level: 70 },
-        { name: "Responsive Web Design", level: 90 },
-        { name: "Prompt Engineering (AI Tools)", level: 70 },
+        { name: "Git" },
+        { name: "GitHub" },
+        { name: "VS Code" }
       ]
     }
   ],
+
   experience: [
     {
-      role: "Web Developer Intern",
+      role: "Web Development Intern",
       company: "Fazinflo",
       location: "Pune, Maharashtra, India · Remote",
       start: "Jan 2024",
       end: "Apr 2024",
       bullets: [
-        "Developed a fashion e-commerce platform focusing on user-friendly catalog browsing and seamless shopping experience.",
-        "Built frontend and backend components using PHP, HTML, CSS, and JavaScript with a MySQL database.",
-        "Implemented features such as user authentication (login/signup), product catalog filtering, shopping cart and checkout system.",
-        "Developed an admin panel for managing products and orders with secure session management.",
-        "Ensured responsive design for mobile and desktop users."
+        "Worked on an e-commerce web application contributing primarily to backend logic and database-driven features.",
+        "Implemented user authentication and session management for login and signup workflows.",
+        "Developed product catalog functionality with filtering and sorting using dynamic queries.",
+        "Built shopping cart and checkout logic and supported order processing workflows.",
+        "Designed and maintained MySQL database schemas for users, products, and orders.",
+        "Collaborated with team members in a remote environment to align backend functionality with frontend requirements."
       ]
     }
   ],
+
   projects: [
     {
       title: "Prodexa – AI Productivity Dashboard",
       description:
-        "Full-stack AI-powered productivity dashboard with authentication, task management, analytics, and AI insights built using Django (backend) and React (frontend).",
+        "Backend-focused productivity application built using Django REST Framework and PostgreSQL, featuring authentication, task management APIs, basic analytics, and AI-assisted task suggestions. Frontend implemented using React for UI integration.",
       image: "/images/dash copy.png",
       tags: [
+        "Python",
         "Django",
-        "React.js",
-        "Tailwind CSS",
-        "Chakra UI",
+        "Django REST Framework",
         "PostgreSQL",
-        "AI Integration"
+        "REST APIs",
+        "JWT Authentication",
+        "OpenAI API"
       ],
       liveUrl: "https://prodexa-ai-productivity.onrender.com/",
       sourceUrl: "https://github.com/amanshinde1/ai-productivity-dashboard"
@@ -87,16 +96,15 @@ I enjoy solving real-world problems through clean, maintainable code and thrive 
     {
       title: "Library Management System",
       description:
-        "A full-featured web-based Library Management System built with Django and PostgreSQL. It includes book catalog, user profiles, borrowing system, admin reports, email reminders, CSV export, and mobile-responsive UI.",
+        "Backend-driven Library Management System built with Django and PostgreSQL. Includes book catalog management, user records, borrowing workflows, search, pagination, email notifications, CSV export, and admin analytics with optimized database queries.",
       image: "/images/Homepage copy.png",
       tags: [
-        "Django",
-        "Django REST Framework",
-        "PostgreSQL",
         "Python",
-        "Bootstrap",
-        "JavaScript",
-        "REST API"
+        "Django",
+        "PostgreSQL",
+        "ORM Optimization",
+        "REST Concepts",
+        "Email Automation"
       ],
       liveUrl: "https://amanshinde.pythonanywhere.com/",
       sourceUrl: "https://github.com/amanshinde1/library-management-system"
@@ -104,21 +112,20 @@ I enjoy solving real-world problems through clean, maintainable code and thrive 
     {
       title: "E-commerce Fashion Store",
       description:
-        "An online fashion store prototype built during internship. Features include product catalog, filtering, shopping cart, user login/signup, and an admin panel for managing orders and inventory. Built with PHP, MySQL, HTML, CSS, JavaScript, and Tailwind CSS.",
+        "E-commerce fashion store prototype developed during internship, featuring authentication, product catalog, cart and checkout workflows, and an admin panel for order and inventory management.",
       image: "/images/dope.png",
       tags: [
         "PHP",
         "MySQL",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Tailwind CSS",
-        "Responsive Web Design"
+        "Backend Development",
+        "Authentication",
+        "CRUD Operations"
       ],
-      liveUrl: "#ECOMMERCE_LIVE_URL",
-      sourceUrl: "#ECOMMERCE_REPO_URL"
+      liveUrl: "#",
+      sourceUrl: "#"
     }
   ],
+
   education: [
     {
       degree: "Master of Computer Applications (MCA)",
@@ -135,61 +142,38 @@ I enjoy solving real-world problems through clean, maintainable code and thrive 
       end: "2022"
     }
   ],
+
   certifications: [
     {
       name: "Scientific Computing with Python",
       issuer: "freeCodeCamp",
       issueDate: "Jun 2025",
-      url: "https://www.freecodecamp.org/certification/aman_shinde/scientific-computing-with-python-v7",
-      skills: ["Python", "Scientific Computing", "Data Structures", "Algorithmic Thinking"]
-    },
-    {
-      name: "Front End Development Libraries",
-      issuer: "freeCodeCamp",
-      issueDate: "May 2025",
-      credentialId: "aman_shinde-fedl",
-      url: "https://www.freecodecamp.org/certification/aman_shinde/front-end-development-libraries",
-      skills: ["React.js", "Redux.js", "JavaScript", "CSS", "Responsive Web Design"]
+      url: "https://www.freecodecamp.org/certification/aman_shinde/scientific-computing-with-python-v7"
     },
     {
       name: "AWS Educate Cloud Computing 101",
       issuer: "Amazon Web Services (AWS)",
       issueDate: "Jun 2025",
-      credentialId: "aman_shinde-fedl",
       url: "https://www.credly.com/earner/earned/share/8fb06e01-8387-4a01-b366-b6f625ee13fe"
     },
     {
       name: "Google AI Essentials",
       issuer: "Google (via Coursera)",
       issueDate: "May 2025",
-      description:
-        "Completed foundational course on AI concepts, responsible and ethical AI practices, and practical applications of AI tools.",
-      skills: ["Artificial Intelligence (AI)", "Machine Learning", "Generative AI"],
       url: "https://www.coursera.org/account/accomplishments/verify/M7TN7OO3JZ04"
-    },
-    {
-      name: "Google Prompting Essentials",
-      issuer: "Google (via Coursera)",
-      issueDate: "May 2025",
-      credentialId: "6RNS9B00MM3R",
-      description: "Covered prompt engineering strategies and best practices for maximizing productivity with generative AI tools.",
-      skills: ["Prompt Engineering", "Generative AI", "Productivity Tools"],
-      url: "https://www.coursera.org/account/accomplishments/verify/6RNS9B00MM3R"
     },
     {
       name: "Foundations of Cybersecurity",
       issuer: "Google (via Coursera)",
       issueDate: "Feb 2024",
-      description:
-        "Completed comprehensive course on cybersecurity fundamentals including information security, risk management, and network protection.",
-      skills: ["Cybersecurity", "Information Security", "Network Security", "Risk Management"],
       url: "https://www.coursera.org/account/accomplishments/verify/37RU4G9L9TQF"
     }
   ],
+
   meta: {
-    title: "Aman Shinde | Full-Stack Developer",
+    title: "Aman Shinde | Backend Developer (Python, Django)",
     description:
-      "Portfolio and resume of Aman Shinde, Full-Stack Developer specializing in Python, Django, PHP, and full-stack web applications.",
+      "Backend Developer portfolio showcasing Django applications, REST API development, authentication systems, and database-driven backend projects.",
     language: "en",
     themeColor: "#2563eb"
   }
